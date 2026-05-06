@@ -3,7 +3,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <iostream>
-#include "../graphics/InteractionPacket.hpp"
+#include "../input/InteractionPacket.hpp"
 #include <atomic>
 
 class Client{

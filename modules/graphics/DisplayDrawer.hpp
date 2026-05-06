@@ -1,8 +1,7 @@
 #pragma once
 #include <glad/glad.h>
 #include <shader.hpp>
-#include <gtc/type_ptr.hpp>
-#include "../config.hpp"
+#include "../physics/config.hpp"
 
 struct DisplayDrawer{    
     GLuint VAO, VBO, EBO;

@@ -8,7 +8,7 @@
 #include <mutex>
 #include <atomic>
 #include <fcntl.h>
-#include "../graphics/InteractionPacket.hpp"
+#include "../input/InteractionPacket.hpp"
 
 class Server{
 private:
