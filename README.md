@@ -1,11 +1,8 @@
-This project was an attempt at understanding sockets and how to transmit data from one source to another. The main idea was to have a server, which hosted a simulation of a 2D grid, and clients, which are capable of interacting 
-with the grid. The network is done through TCP. The build was done on Mac and you would have to do some changes in the CMake file etc. to make the sockets compatible with windows in particular. 
+This project was an attempt at understanding sockets and how to transmit data from one source to another. The main idea was to have a server, which hosted a simulation of a 2D grid, and clients, which are capable of interacting with the grid. The network is done through TCP. The build was done on Mac and you would have to do some changes in the CMake file etc. to make the sockets compatible with windows. 
 
 <img width="699" height="777" alt="Image" src="https://github.com/user-attachments/assets/db5bf23b-1110-4d25-bdf3-b9985abf86ab" />
 
-
-The main structure of this project can be found in modules. This contains the following:
-graphics, input, network and physics
+The main structure of this project can be found in modules:
 
 Graphics: 
 The graphics module controls how the grid is drawn on client windows. It contains both the setup of the actual windows 
